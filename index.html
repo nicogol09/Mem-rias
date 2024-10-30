@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Álbum de Memórias Escolares de Nicolas Albinati">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Álbum de Memórias Escolares de Nicolas Albinati</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Álbum de Memórias 📓</h1>
+    <nav>
+        <ul>
+            <li><a href="#" onclick="showSection('info')">Informações</a></li>
+            <li><a href="#" onclick="showSection('menu')">Galeria</a></li>
+            <li><a href="#" onclick="showSection('curiosities')">Curiosidades 🎓</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="container" id="content">
+    <!-- Seção Galeria -->
+    <section class="menu" id="menu" style="display: none;">
+        <div class="gallery">
+            <div class="photo-section" onclick="showInfo(1)" tabindex="0">
+                <img src="Aniver.jpg" alt="Dia De Aniversário">
+                <div class="overlay">
+                    <h2>Dia de Aniversário</h2>
+                </div>
+            </div>
+            <div class="photo-section" onclick="showInfo(2)" tabindex="0">
+                <img src="Interclasse.jpg" alt="Interclasse com meu amigo Rhenan">
+                <div class="overlay">
+                    <h2>Dia de Interclasse</h2>
+                </div>
+            </div>
+            <div class="photo-section" onclick="showInfo(3)" tabindex="0">
+                <img src="Luta.jpg" alt="Luta do Vinícios com o Lopes">
+                <div class="overlay">
+                    <h2>Lutinha</h2>
+                </div>
+            </div>
+            <div class="photo-section" onclick="showInfo(4)" tabindex="0">
+                <img src="Mesa.jpg" alt="Montando Mesa">
+                <div class="overlay">
+                    <h2>Montando Mesa</h2>
+                </div>
+            </div>
+            <div class="photo-section" onclick="showInfo(5)" tabindex="0">
+                <img src="MesaCi.jpg" alt="Mesa minha e do grupo">
+                <div class="overlay">
+                    <h2>Mesa da Cieli</h2>
+                </div>
+            </div>
+            <div class="photo-section" onclick="showInfo(6)" tabindex="0">
+                <img src="Wand.jpg" alt="Foto com Wanderley">
+                <div class="overlay">
+                    <h2>Nois e Wanderley</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Informações -->
+    <section class="info" id="info">
+        <div class="info-section">
+            <h2>Dia de Aniversário</h2>
+            <p>Era meu aniversário e me deram esse meu banquete.</p>
+        </div>
+        <div class="info-section">
+            <h2>Dia de Interclasse</h2>
+            <p>Interclasse e eu com meu amigo Rhenan.</p>
+        </div>
+        <div class="info-section">
+            <h2>Lutinha</h2>
+            <p>Luta do Lopes com Monteiro no meio da aula de Robótica.</p>
+        </div>
+        <div class="info-section">
+            <h2>Montando Mesa</h2>
+            <p>Montando as mesas pra um evento de caridade na aula da Cieli.</p>
+        </div>
+        <div class="info-section">
+            <h2>Mesa da Cieli</h2>
+            <p>Essa mesa que é minha e do meu grupo.</p>
+        </div>
+        <div class="info-section">
+            <h2>Nois e Wanderley</h2>
+            <p>Comendo pipoca com o professor de português.</p>
+        </div>
+    </section>
+
+    <!-- Seção Curiosidades -->
+    <section class="curiosities" id="curiosities" style="display: none;">
+        <div class="curiosity-section">
+            <h2>Curiosidades Escolares</h2>
+            <ul>
+                <li>Nicolas era conhecido como o "Detetive Escolar" porque conseguia lembrar de todos os detalhes dos trabalhos de cada colega, mesmo sem anotá-los.</li>
+                <li>Quando o assunto era atividades em grupo, ele sempre sugeria ideias criativas, como decorar a sala com plantas para representar uma "floresta tropical," deixando a professora encantada (e um pouco confusa).</li>
+                <li>Durante as viagens escolares, ele sempre liderava o grupo com histórias que misturavam mistério e humor, fazendo todo mundo acreditar (ou quase) que a escola era assombrada.</li>
+                <li>Nicolas tinha o dom de animar até as aulas mais tediosas: era o mestre em criar jogos e desafios secretos que só os amigos mais próximos sabiam jogar na hora do intervalo.</li>
+            </ul>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; Morelli 2024, Nicolas Albinati 3°E - Todos os direitos reservados.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
